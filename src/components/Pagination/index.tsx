@@ -1,4 +1,4 @@
-import { usePagination } from "@/context/paginationContext";
+import { usePagination } from "@/context/PaginationContext";
 import React, { useEffect, useState } from "react";
 
 export const Pagination = () => {
