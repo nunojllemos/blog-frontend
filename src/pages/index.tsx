@@ -9,7 +9,7 @@ import cmsApi from "@/services/cmsApi";
 import { ArticleProps } from "@/props/ArticleProps";
 import { Articles } from "@/components/Articles";
 import { Pagination } from "@/components/Pagination";
-import { PaginationProvider } from "@/context/paginationContext";
+import { PaginationProvider } from "@/context/PaginationContext";
 
 interface HomeProps {
 	articles: ArticleProps[];
