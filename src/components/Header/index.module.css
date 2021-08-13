@@ -1,0 +1,39 @@
+.header {
+	box-shadow: 0 1px 1px 0 rgb(0 0 0 / 8%);
+	padding-block: 1.5rem;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.leftSide {
+	display: flex;
+	align-items: center;
+}
+
+.leftSide nav {
+	margin-left: 3rem;
+}
+
+.leftSide nav a + a {
+	margin-left: 2.4rem;
+}
+
+.leftSide nav a {
+	color: #101010;
+	font-size: 1.4rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	line-height: 1.8rem;
+}
+
+.rightSide a {
+	font-size: 1.4rem;
+}
+
+.rightSide a + a {
+	margin-left: 1rem;
+}

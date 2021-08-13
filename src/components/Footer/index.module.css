@@ -1,0 +1,75 @@
+.footer {
+	background-color: #000;
+	padding-top: 46px;
+	color: #fff;
+}
+
+.footerTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 5rem;
+}
+
+.footerTop nav {
+	display: flex;
+}
+
+.footerTop nav > div {
+	padding-inline: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footerTop nav address,
+.footerTop nav p {
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #ccc;
+}
+
+.footerTop nav address {
+	text-align: center;
+	font-style: normal;
+}
+
+.socialContainer .navHeader,
+.footerTop nav .navHeader {
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.9rem;
+	margin-bottom: 1.2rem;
+	color: #fff;
+}
+
+.footerTop nav p + p {
+	margin-top: 0.7rem;
+}
+
+.socialContainer a {
+	font-size: 1.4rem;
+}
+
+.socialContainer a + a {
+	margin-left: 1rem;
+}
+
+.footerBottom {
+	border-top: 1px solid #292929;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 0.5rem;
+	font-size: 1.4rem;
+	padding-block: 2.3rem;
+}
+
+.footerBottom a,
+.footerBottom p {
+	line-height: 1.8rem;
+}
+
+.footerBottom p a {
+	font-weight: 600;
+}
