@@ -1,4 +1,4 @@
-import { usePagination } from "@/context/paginationContext";
+import { usePagination } from "@/context/PaginationContext";
 import { ArticleProps } from "@/props/ArticleProps";
 
 export const Articles = () => {
